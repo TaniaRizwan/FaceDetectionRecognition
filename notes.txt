@@ -1,0 +1,10 @@
+ 
+ 
+ 
+ 
+ 
+ Haar Cascades:
+ scaleFactor: A smaller scale factor (like 1.05) means more scales to check, which can improve accuracy but will slow down the process. A larger scale factor (like 1.3) will speed up detection but might miss some objects.
+ https://medium.com/@amit25173/opencv-haar-cascade-explained-3b39a390871c#:~:text=scaleFactor%20%3A%20This%20parameter%20controls%20how,but%20might%20miss%20some%20objects.
+ minNeighbors: This determines how many neighbors each detected rectangle should have. A higher value (like 7) reduces false positives but might miss some faces. A lower value (like 3) increases the chances of detecting a face but also the likelihood of false positives.
+ minSize: This sets the minimum size of detected objects. If you’re only interested in detecting large faces, you can increase this value to speed up the process.
